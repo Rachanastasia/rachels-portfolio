@@ -100,12 +100,6 @@ section .section-column{
   flex-direction: column;
 }
 
-section div .section-about{
-  display: flex;
-  flex-direction: column;
-}
-
-
 
 
 /*forms, links, buttons for contact section*/
@@ -249,7 +243,7 @@ section div .card:last-of-type{
   }
 
   section div p{
-    text-align: center;
+    text-align: right;
   }
   
 
@@ -278,29 +272,5 @@ section div .card:last-of-type{
 
   section div .card{
     justify-content: space-between;
-  }
-}
-
-
-
- /*
- section:last-of-type{
-    flex-direction: row;
-    padding-bottom: 15px;
-  
-  
-  
-  WHEN I COME BACK FROM THE BREAK
-
-  FIX PLACEHOLDERS
-  SWITCH IMAGE TO OTHER SIDE
-  CREATE FLEXBOX FOR FIRST SECTION
-  WRITE FOR THE PROJECTS
-  
-  
-  
-  
-  
-  
   }
 }
