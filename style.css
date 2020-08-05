@@ -100,6 +100,12 @@ section .section-column{
   flex-direction: column;
 }
 
+section div .section-about{
+  display: flex;
+  flex-direction: column;
+}
+
+
 
 
 /*forms, links, buttons for contact section*/
@@ -241,6 +247,11 @@ section div .card:last-of-type{
   section div form button:first-of-type:hover{
     color: #FFC300;
   }
+
+  section div p{
+    text-align: center;
+  }
+  
 
 
 /*LAYOUT CHANGES*/
