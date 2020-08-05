@@ -133,6 +133,10 @@ section div form text-area{
   margin: 0 0 20px 0;
 }
 
+text-area{
+  width: 400px;
+}
+
 section div a{
   text-decoration: none;
   color: #03050c;
@@ -247,6 +251,10 @@ section .section{
 section div .info-sub{
   margin: 0 15px 0 0;
   align-self: flex-start;
+}
+
+section div .sub >*{
+  font-size: 1.2em;
 }
 
 section div .card{
